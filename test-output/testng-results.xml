@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-04T22:32:19 IST" name="Default suite" finished-at="2023-11-04T22:32:22 IST" duration-ms="2922">
+  <suite started-at="2024-02-15T17:37:51Z" name="Suite" finished-at="2024-02-15T17:37:56Z" duration-ms="4892">
     <groups>
     </groups>
-    <test started-at="2023-11-04T22:32:19 IST" name="Default test" finished-at="2023-11-04T22:32:22 IST" duration-ms="2922">
+    <test started-at="2024-02-15T17:37:51Z" name="Test" finished-at="2024-02-15T17:37:56Z" duration-ms="4892">
+      <class name="com.testProject.API_Testing.E2EPlaceTest">
+        <test-method signature="addPlaceTest()[pri:0, instance:com.testProject.API_Testing.E2EPlaceTest@6caf0677]" started-at="2024-02-15T17:37:53Z" name="addPlaceTest" finished-at="2024-02-15T17:37:56Z" duration-ms="2613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPlaceTest -->
+      </class> <!-- com.testProject.API_Testing.E2EPlaceTest -->
+      <class name="com.testProject.API_Testing.AddPlaceTest">
+        <test-method signature="addPlaceTest()[pri:0, instance:com.testProject.API_Testing.AddPlaceTest@645aa696]" started-at="2024-02-15T17:37:51Z" name="addPlaceTest" finished-at="2024-02-15T17:37:53Z" duration-ms="1727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPlaceTest -->
+      </class> <!-- com.testProject.API_Testing.AddPlaceTest -->
       <class name="com.testProject.API_Testing.E2EBookAPITest">
-        <test-method signature="addBookTest()[pri:1, instance:com.testProject.API_Testing.E2EBookAPITest@14dd9eb7]" started-at="2023-11-04T22:32:19 IST" name="addBookTest" finished-at="2023-11-04T22:32:22 IST" duration-ms="2459" status="PASS">
+        <test-method signature="addBookTest()[pri:1, instance:com.testProject.API_Testing.E2EBookAPITest@413d1baf]" started-at="2024-02-15T17:37:56Z" name="addBookTest" finished-at="2024-02-15T17:37:56Z" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBookTest -->
-        <test-method signature="getBookTest()[pri:2, instance:com.testProject.API_Testing.E2EBookAPITest@14dd9eb7]" started-at="2023-11-04T22:32:22 IST" name="getBookTest" finished-at="2023-11-04T22:32:22 IST" duration-ms="266" status="PASS">
+        <test-method signature="getBookTest()[pri:2, instance:com.testProject.API_Testing.E2EBookAPITest@413d1baf]" started-at="2024-02-15T17:37:56Z" name="getBookTest" finished-at="2024-02-15T17:37:56Z" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBookTest -->
-        <test-method signature="deleteBookTest()[pri:3, instance:com.testProject.API_Testing.E2EBookAPITest@14dd9eb7]" started-at="2023-11-04T22:32:22 IST" name="deleteBookTest" finished-at="2023-11-04T22:32:22 IST" duration-ms="140" status="PASS">
+        <test-method signature="deleteBookTest()[pri:3, instance:com.testProject.API_Testing.E2EBookAPITest@413d1baf]" started-at="2024-02-15T17:37:56Z" name="deleteBookTest" finished-at="2024-02-15T17:37:56Z" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBookTest -->
       </class> <!-- com.testProject.API_Testing.E2EBookAPITest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
