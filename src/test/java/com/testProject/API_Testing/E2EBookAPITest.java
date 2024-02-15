@@ -91,6 +91,7 @@ public class E2EBookAPITest {
 		
 		System.out.println(DelBookResponse);
 		
+		System.out.println("Test Success");
 		
 							
 	}
